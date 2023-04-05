@@ -1,0 +1,26 @@
+.brand-title {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 1.0rem;
+    color: #2280c7;
+    letter-spacing: 1px;
+    text-align : center;
+  }
+
+  .brand-title1 {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 1.0rem;
+    color: #e90a0a;
+    letter-spacing: 1px;
+    text-align : center;
+  }
+  .anyColor{
+    fill : #3b50af;
+}
+
+.iconContainer{
+    width : 50px;
+    height:50px;
+    display:inline-block; 
+}
