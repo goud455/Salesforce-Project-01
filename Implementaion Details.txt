@@ -1,0 +1,37 @@
+https://api.einstein.ai/signup  -> Signup using salesforce credentails and ou get key
+Copy and paste the key into a text file and save it as einstein_platform.pem.
+Upload this file in salesforce files.
+
+Required Apex classes & Triggers
+
+HttpFormBuilder
+JWT
+JWTBearerFlow
+EinsteinAPIService -- email id need to change jwt.sub = 'shivangi.gaur@accenture.com';
+emailVerifyApiClass
+NewEinsteinOCRAPICall
+EinsteinOCRResponse
+ContentDocumentIdsProcessing
+ContentDocumentLinkTrigger - Trigger
+ContentVersionExternalLink - Trigger
+ContentTriggerHandler
+ContentTriggerHelper
+
+
+newBulk --> LWC Component
+
+Remote Site Settings
+1. einsteinapi  --> https://api.einstein.ai
+2. emailvalidationAPI --> https://emailvalidation.abstractapi.com (https://www.abstractapi.com/guides/free-email-validation --> sign up to get api key and use in EmailVerifyApiClass class)
+Types of plans
+ 
+Free Plan
+2,000 predictions per calendar month.
+ 
+Paid Plans
+BRONZE—10,000 predictions per calendar month.
+SILVER—250,000 predictions per calendar month.
+GOLD—One million predictions per calendar month.
+
+
+
