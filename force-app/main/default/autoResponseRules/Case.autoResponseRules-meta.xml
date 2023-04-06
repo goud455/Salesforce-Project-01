@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>emailtocaseAutoReponse</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>goud433535@gmail.com</senderEmail>
+            <senderName>no-reply@GS Salesforce Support Team</senderName>
+            <template>unfiled$public/Email_To_Case_Template</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>
